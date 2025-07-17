@@ -12,14 +12,16 @@ const Registration = () => {
   };
 
   return (
-    <div className="pt-30 px-2 lg:pt-40 pb-10">
-      <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 justify-between">
-          <Form data={formFields} onSubmit={handleFormSubmit} />
-          <Table entries={entries} />
+    <>
+      <div className="pt-30 px-2 lg:pt-40 pb-10">
+        <div className="container mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 justify-between">
+            <Form data={formFields} onSubmit={handleFormSubmit} />
+            <Table entries={entries} />
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

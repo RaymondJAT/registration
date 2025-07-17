@@ -3,7 +3,7 @@ import Registration from "./pages/Registration";
 
 const App = () => {
   return (
-    <div>
+    <>
       <ToastContainer
         position="top-right"
         autoClose={2000}
@@ -12,7 +12,7 @@ const App = () => {
         closeOnClick
       />
       <Registration />
-    </div>
+    </>
   );
 };
 

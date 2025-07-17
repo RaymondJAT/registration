@@ -8,14 +8,18 @@
     padding-inline: 2rem;
   }
   @media (width >= theme(--breakpoint-lg)) {
-    padding-inline: 9rem;
+    padding-inline: 8rem;
   }
   @media (width >= theme(--breakpoint-xl)) {
-    padding-inline: 12rem;
+    padding-inline: 10rem;
   }
   @media (width >= theme(--breakpoint-2xl)) {
-    padding-inline: 17rem;
+    padding-inline: 12rem;
   }
+}
+
+body {
+  background: #9e9e50;
 }
 
 /* Table.css */
@@ -28,7 +32,7 @@
 .custom-scrollbar::-webkit-scrollbar-thumb {
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  background-color: #800000;
+  background-color: #b9b96a;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
   border-right: none;
   border-left: none;
